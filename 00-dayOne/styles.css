@@ -1,0 +1,112 @@
+body {
+  background-color: tomato;
+}
+
+.circle {
+  background-color: white;
+
+  height: 45em;
+  width: 45em;
+ 
+  position: absolute;
+/* margin auto applies an even margin on all sides of the element */
+  margin: auto;
+  
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  border-radius: 50%;
+
+  box-shadow: 5px 5px 50px black;
+}
+
+.topBun {
+  background-color: tan;
+
+  height: 5.5em;
+  width: 28em;
+
+  border-radius: 25% 25% 0 0;
+
+  position: absolute;
+
+  margin: auto;
+
+  top: 0;
+  left: 0;
+  bottom: 16em;
+  right: 0;
+}
+
+.ketchup {
+   background-color: red;
+   
+   height: 2em;
+   width: 28em;
+
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 5.5em; 
+   right: 0; 
+
+   margin: auto;
+
+
+}
+
+.mustard {
+  background-color:goldenrod;
+  
+  height: 1em;
+  width: 28em;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 8.5em; 
+  right: 0; 
+
+  margin: auto;
+
+
+}
+
+.patty {
+  background-color: brown;
+
+  height: 4em;
+  width: 28em;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+
+}
+
+.bottomBun {
+  background-color: tan;
+
+  height: 5.5em;
+  width: 28em;
+
+  border-radius: 0 0 25% 25%;
+
+  position: absolute;
+
+  top: 11.5em;
+  left: 0; 
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+
+}
+
