@@ -12,3 +12,4 @@ testFunction();
 function testFunction () {
   console.log('I have been hoisted');
 }
+
